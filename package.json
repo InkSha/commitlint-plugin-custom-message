@@ -1,0 +1,60 @@
+{
+  "name": "commitlint-plugin-custom-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": {
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --config .prettierrc.js --write ./src/** ./*.js ./*.ts",
+    "lint": "eslint src/** --fix"
+  },
+  "homepage": "https://github.com/InkSha/commitlint-plugin-custom-message#readme",
+  "bugs": {
+    "url": "https://github.com/InkSha/commitlint-plugin-custom-message/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:InkSha/commitlint-plugin-custom-message.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintplugin",
+    "custom-message",
+    "plugin",
+    "rules"
+  ],
+  "author": "inksha",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/lint": "^19.2.2",
+    "@commitlint/load": "^19.4.0",
+    "@commitlint/rules": "^19.0.3",
+    "@commitlint/types": "^19.0.3",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.1.3",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "@commitlint/rules": "^19.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
