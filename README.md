@@ -5,7 +5,7 @@ This is commitlint plugin, through this, user can custom commitlint error messag
 ## Install
 
 ```bash
-npm install --save-dev commitlint-plugin-custom-message @commitlint/cli @commitlint/config-conventional @commitlint/types @commitlint/rules
+npm install --save-dev commitlint-plugin-custom-message @commitlint/cli @commitlint/config-conventional
 ```
 
 ## Usage
