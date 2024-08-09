@@ -8,7 +8,8 @@
   },
   "files": [
     "dist",
-    "*.d.ts"
+    "*.d.ts",
+    "*.md"
   ],
   "scripts": {
     "build": "tsc",
